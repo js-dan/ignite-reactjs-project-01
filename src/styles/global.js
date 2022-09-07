@@ -18,6 +18,15 @@ export const GlobalStyle = createGlobalStyle`
   }
 
   body {
+    background: ${(props) => props.theme.colors.gray900};
+    color: ${(props) => props.theme.colors.gray300};
+    -webkit-font-smooting: antialiased;
+  }
+
+  body, input, textarea, button {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
   }
 
   button {
