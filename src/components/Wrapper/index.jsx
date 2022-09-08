@@ -1,5 +1,5 @@
 import { Post, Sidebar } from "..";
-import { Aside, Container, Main } from "./style";
+import { Container, Main } from "./style";
 
 export function Wrapper(props) {
   return (
