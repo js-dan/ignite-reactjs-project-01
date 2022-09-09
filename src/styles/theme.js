@@ -8,6 +8,7 @@ export const theme = {
     gray700: '#29292e',
     gray800: '#202024',
     gray900: '#121214',
+    green300: '#00b37e',
     green500: '#00875f'
   },
 };
